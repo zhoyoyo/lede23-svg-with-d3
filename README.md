@@ -2,7 +2,7 @@
 
 An 8-step guide to create a simple SVG graphic with D3.js
 
-##### What to do before we start:
+#### What to do before we start:
 - Clone this repo to your computer or download the zip file to this repo using the green top button that says `CODE` 
 - Navigate to the repo with terminal, and load a local server. 
     - You can use the following line if you use python. Once it says a local server is running, type in `localhost:8080` on your browser. You should see the content of the `index.html` page there!
