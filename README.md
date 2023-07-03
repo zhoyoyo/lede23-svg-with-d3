@@ -2,9 +2,18 @@
 
 An 8-step guide to create a simple SVG graphic with D3.js
 
+##### What to do before we start:
+- Clone this repo to your computer
+- Navigate to the repo with terminal, and load a local server. 
+    - You can use the following line if you use python:
+        ```
+        python3 -m http.server --cgi 8080
+        ```
+    - If you use VS Code, check this out: [How to load changes spontanously on your local server with VS Code](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/) 
+
 ## Preparation
 
-1. Create a basic html page. If you don't know how, refers to Soma’s tutorial: [How to create and host a web pages on Github](https://jonathansoma.com/fancy-github/github-pages/).
+1. Create a basic html page. If you don't know how, refers to Soma’s tutorial: [How to create and host a web pages on Github](https://jonathansoma.com/fancy-github/github-pages/). For this tutorial, you can use `index.html` as a starter. 
 
 
 2. Add the d3 library to the page. For the purpose of this demo, we are loading the entire D3 library in one Javascript (js) file.  Add the following script to your HTML markup. 
@@ -19,7 +28,7 @@ An 8-step guide to create a simple SVG graphic with D3.js
 
 ## Read data
 
-4. Load the data onto the webpage with `d3.csv` ([🔗 to doc](https://github.com/d3/d3-fetch/tree/v3.0.1)) 
+4. Load the data onto the webpage with `d3.csv` or `d3.json` ([🔗 to doc](https://github.com/d3/d3-fetch/tree/v3.0.1)) 
     - You will be doing this inside the `script` tag inside `head`.
 
 
@@ -99,7 +108,12 @@ An 8-step guide to create a simple SVG graphic with D3.js
 
 You're done. Good job.
 
-You can play around different SVG shapes/text/path, different ways of encoding your data, and don't forget to publish your page.
+You can play around different SVG shapes/text/path, different ways of encoding your data...  
+- Encode data as size instead of colors? Using different shapes or even text?
+- Sort the data based on categories of variables?
+- Change the position of the data to compare length?
+
+... and don't forget to publish your page.
      
 
 
@@ -110,7 +124,3 @@ You can play around different SVG shapes/text/path, different ways of encoding y
 - [D3 gallery on Observable](https://observablehq.com/@d3/gallery) if you want to play around/ borrow the code.  
 - [How to learn D3?](https://2019.wattenberger.com/blog/d3) An interactive tutorial by Amelia Wattenberger
 - [Shirley Wu's Introduction to D3](https://observablehq.com/@sxywu/introduction-to-svg-and-d3-js?collection=@sxywu/introduction-to-d3-js), also on Observable
-
-#### ... on things other than D3
-
-- [How to load changes spontanously on your local server with VS Code](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/)
